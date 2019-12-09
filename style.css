@@ -1,7 +1,9 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: turquoise;
     box-sizing: border-box;
+}
+body {
+    background-color: turquoise;
 }
 nav {
     display: flex;
@@ -17,7 +19,7 @@ a {
 }
 main {
     text-align: center;
-    margin: 15%;
+    margin: 10%;
 }
 .title {
     display: flex;
@@ -27,4 +29,25 @@ main {
 }
 div {
     padding: 5%;
+}
+.header {
+    animation-duration: 3s;
+}
+.halal {
+    animation-duration: 3s;
+}
+
+@media (max-width: 576px) {
+    * {
+        font-size: 0.8rem;
+    }
+    a {
+        padding: 5px;
+    }
+    nav {
+        padding-right: 2%;
+    }
+    .About {
+        padding-top: 3%;
+    }
 }

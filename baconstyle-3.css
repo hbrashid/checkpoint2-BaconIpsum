@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: teal;
+    width: 100%;
+}
+p {
+    width: 75%;
+    text-align: center;
+    margin: 5% auto;
+}
+h1 {
+    text-align: center;
+}

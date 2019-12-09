@@ -1,0 +1,28 @@
+body {
+    background-color: turquoise;
+    font-family: 'Roboto', sans-serif;
+}
+iframe {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+p {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.article {
+    margin-left: 48%;
+}
+@media (max-width: 576px) {
+    iframe {
+        width: 300px;
+        height: 350px;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    p {
+        margin-top: 10%;
+    }
+}
