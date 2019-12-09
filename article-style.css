@@ -27,3 +27,20 @@ main > a {
     color: whitesmoke;
     font-size: 3.0rem;
 }
+
+@media (max-width: 576px) {
+    * {
+        font-size: 0.8rem;
+    }
+    nav {
+        padding-right: 2%;
+    }
+    a {
+        padding: 5px;
+    }
+    .About {
+        padding-top: 3%;
+    }
+
+
+}
